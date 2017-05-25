@@ -7,6 +7,7 @@ import android.util.Log;
 public class MainActivity extends AppCompatActivity {
 
     final String TAG = "ONBUSAPP:MainActivity";
+    final String CIAO = "ciao";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
