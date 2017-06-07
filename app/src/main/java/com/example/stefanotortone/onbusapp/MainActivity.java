@@ -8,6 +8,8 @@ public class MainActivity extends AppCompatActivity {
 
     final String TAG = "ONBUSAPP:MainActivity";
     final String CIAO = "ciao";
+    final String hello = "ciao";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
