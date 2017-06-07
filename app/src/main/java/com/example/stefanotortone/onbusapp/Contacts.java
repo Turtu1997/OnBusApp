@@ -1,22 +1,15 @@
 package com.example.stefanotortone.onbusapp;
 
-import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+import android.app.Activity;
 import android.util.Log;
 
-public class MainActivity extends AppCompatActivity {
 
-    final String TAG = "ONBUSAPP:MainActivity";
-    final String CIAO = "ciao";
-    final String hello = "ciao";
+/**
+ * Created by alessandro on 07/06/17.
+ */
 
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-    }
+public class Contacts extends Activity {
+    final String TAG = "";
 
     @Override
     protected void onStart() {
@@ -55,9 +48,6 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
         Log.i(TAG, "----> onDestroy");
     }
-
-    public void prova() {
-        Intent intent = new Intent(this, Contacts.class);
-        startActivity(intent);
-    }
 }
+
+
