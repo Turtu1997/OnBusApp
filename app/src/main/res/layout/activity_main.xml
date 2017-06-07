@@ -11,12 +11,12 @@
         android:id="@+id/lblText2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="29dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:text="registrati_utilizzando_un_social"
         app:layout_constraintBottom_toTopOf="@+id/btnFacebook"
-        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 
@@ -54,11 +54,11 @@
         android:id="@+id/btnFacebook"
         android:layout_width="209dp"
         android:layout_height="47dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="25dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:background="@color/FacebookColor"
-        android:text="Registrati con Facebook"
+        android:text="@string/registrati_con_facebook"
         android:textColor="@android:color/background_light"
         app:layout_constraintBottom_toTopOf="@+id/btnGmail"
         app:layout_constraintHorizontal_bias="0.503"
@@ -69,14 +69,13 @@
         android:id="@+id/btnGmail"
         android:layout_width="206dp"
         android:layout_height="47dp"
-        android:layout_marginBottom="101dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:background="@color/GmailColor"
-        android:text="Registrati con gmail"
+        android:text="@string/registrati_con_gmail"
         android:textColor="@android:color/background_light"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent" />
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="397dp" />
 
 </android.support.constraint.ConstraintLayout>
