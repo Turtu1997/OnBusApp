@@ -1,15 +1,28 @@
 package com.example.stefanotortone.onbusapp;
 
 import android.content.Intent;
+import android.net.Uri;
+import android.os.PersistableBundle;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.Gravity;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.TextView;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity{
 
     final String TAG = "ONBUSAPP:MainActivity";
-    final String CIAO = "ciao";
-    final String hello = "ciao";
+    //final String CIAO = "ciao";
+    //final String hello = "ciao";
 
 
     @Override
@@ -56,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
         Log.i(TAG, "----> onDestroy");
     }
 
-    public void prova() {
+    public void prova(View view) {
         Intent intent = new Intent(this, Contacts.class);
         startActivity(intent);
     }
