@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity{
         Log.i(TAG, "----> onDestroy");
     }
 
-    public void prova(View view) {
+    public void startContacts(View view) {
         Intent intent = new Intent(this, Contacts.class);
         startActivity(intent);
     }

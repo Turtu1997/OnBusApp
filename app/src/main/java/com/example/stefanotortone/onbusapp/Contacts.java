@@ -1,6 +1,7 @@
 package com.example.stefanotortone.onbusapp;
 
 import android.app.Activity;
+import android.os.Bundle;
 import android.util.Log;
 
 
@@ -9,8 +10,15 @@ import android.util.Log;
  */
 
 public class Contacts extends MainActivity {
-    final String TAG = "ONBUSAPP:MainActivity";
+    final String TAG = "ONBUSAPP:Contacts";
 
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.contact);
+        Log.i(TAG, "----> onCreate");
+    }
     @Override
     protected void onStart() {
         super.onStart();
