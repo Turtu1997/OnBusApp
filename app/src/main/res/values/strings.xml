@@ -3,4 +3,6 @@
     <string name="registrati_utilizzando_un_social">Registrati utilizzando un Social</string>
     <string name="registrati_con_facebook">Registrati con Facebook</string>
     <string name="registrati_con_gmail">Registrati con gmail</string>
+    <string name="button">Button</string>
+    <string name="onbus">ONBUS</string>
 </resources>
