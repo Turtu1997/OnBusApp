@@ -8,8 +8,8 @@ import android.util.Log;
  * Created by alessandro on 07/06/17.
  */
 
-public class Contacts extends Activity {
-    final String TAG = "";
+public class Contacts extends MainActivity {
+    final String TAG = "ONBUSAPP:MainActivity";
 
     @Override
     protected void onStart() {
