@@ -73,4 +73,9 @@ public class MainActivity extends AppCompatActivity{
         Intent intent = new Intent(this, Contacts.class);
         startActivity(intent);
     }
+
+    public void startcercafermata(View view) {
+        Intent intent = new Intent(this, CercaFermata.class);
+        startActivity(intent);
+    }
 }
