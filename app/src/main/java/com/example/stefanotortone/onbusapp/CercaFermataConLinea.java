@@ -9,7 +9,7 @@ import android.util.Log;
 
 public class CercaFermataConLinea extends MainActivity {
 
-    final String TAG = "ONBUSAPP:CercaFermataConLinea";
+    final String TAG = "ONBUSAPP:FermataLinea";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
