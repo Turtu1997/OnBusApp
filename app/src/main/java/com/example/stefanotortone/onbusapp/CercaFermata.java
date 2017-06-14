@@ -9,9 +9,6 @@ import android.util.Log;
 
 public class CercaFermata extends MainActivity {
 
-
-
-
         final String TAG = "ONBUSAPP:CercaFermata";
 
 
