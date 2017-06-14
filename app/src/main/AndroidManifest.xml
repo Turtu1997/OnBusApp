@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Contacts"></activity>
-        <activity android:name=".CercaFermataConLinea"></activity>
+        <activity android:name=".CercaFermata"></activity>
     </application>
 
 </manifest>
