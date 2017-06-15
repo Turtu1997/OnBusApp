@@ -19,7 +19,8 @@
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@+id/imageButton"
-        android:layout_marginRight="8dp" />
+        android:layout_marginRight="8dp"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView4"
@@ -34,7 +35,8 @@
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintHorizontal_bias="0.501" />
+        app:layout_constraintHorizontal_bias="0.501"
+        tools:ignore="HardcodedText" />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -44,7 +46,8 @@
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="8dp" />
+        android:layout_marginTop="8dp"
+        tools:ignore="ContentDescription,RtlHardcoded" />
 
     <TextView
         android:id="@+id/textView5"
@@ -60,7 +63,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginTop="8dp"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:layout_constraintVertical_bias="0.117" />
+        app:layout_constraintVertical_bias="0.117"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView8"
@@ -74,10 +78,11 @@
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        tools:ignore="HardcodedText" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/textView11"
         android:layout_width="350dp"
         android:layout_height="69dp"
         android:text="265  PINEROLO DIRETTO"
@@ -88,6 +93,7 @@
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginTop="125dp"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:ignore="HardcodedText" />
 
 </android.support.constraint.ConstraintLayout>

@@ -1,7 +1,9 @@
 package com.example.stefanotortone.onbusapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 
 /**
  * Created by stefanotortone on 14/06/17.
@@ -55,6 +57,11 @@ public class CercaFermata extends MainActivity {
             super.onDestroy();
             Log.i(TAG, "----> onDestroy");
         }
+
+    public void startsolofermate(View view) {
+        Intent intent = new Intent(this, SoloFermate.class);
+        startActivity(intent);
+    }
 
 
 }
