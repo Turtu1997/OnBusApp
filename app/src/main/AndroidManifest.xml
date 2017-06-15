@@ -4,8 +4,8 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:icon="@drawable/applogo"
+        android:label="@string/onbus"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -17,6 +17,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".Contacts"></activity>
-    </application>
+        <activity android:name=".CercaFermata"></activity>
+        <activity android:name=".CercaFermataConLinea"></activity>
+        <activity android:name=".SoloFermate"></activity>
 
+
+    </application>
 </manifest>
