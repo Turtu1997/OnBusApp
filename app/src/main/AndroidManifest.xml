@@ -19,5 +19,8 @@
         <activity android:name=".Contacts"></activity>
         <activity android:name=".CercaFermata"></activity>
         <activity android:name=".CercaFermataConLinea"></activity>
+        <activity android:name=".SoloFermate"></activity>
+
+
     </application>
 </manifest>
