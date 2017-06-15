@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <TextView
+        android:layout_width="243dp"
+        android:layout_height="36dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="70dp"
+        android:id="@+id/textView4"
+        android:fontFamily="sans-serif"
+        android:textSize="28sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/background_dark"
+        android:text="Visualizza Fermata" />
+
+    <TextView
+        android:text="15:26 "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="77dp"
+        tools:layout_editor_absoluteX="35dp"
+        android:id="@+id/textView9"
+        android:textStyle="normal|bold"
+        android:textSize="30sp" />
+
+    <TextView
+        android:text="PINEROLO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="77dp"
+        tools:layout_editor_absoluteX="131dp"
+        android:id="@+id/textView12"
+        android:textStyle="normal|bold"
+        android:textSize="30sp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="184dp"
+        tools:layout_editor_absoluteX="35dp"
+        android:id="@+id/textView13"
+        tools:text="PERCORSO"
+        android:textStyle="normal|bold"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="129dp"
+        tools:layout_editor_absoluteX="125dp"
+        android:id="@+id/textView14"
+        tools:text="77% OCCUPATO"
+        android:textStyle="normal|bold"
+        android:textSize="20sp" />
+</android.support.constraint.ConstraintLayout>
+
+    <?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent" >
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="New Text"
+    android:background="@drawable/line" />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="New Text"
+    android:background="@drawable/line"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="New Text"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/line" />
+</LinearLayout>
+
+<!--
+DOVREBBE ESSERE QUESTA..
+    <?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent" >
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="New Text"
+    android:background="@drawable/line" />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="New Text"
+    android:background="@drawable/line"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="New Text"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/line" />
+</LinearLayout>
+-->

@@ -7,20 +7,11 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:text="14.06 ore 11.26"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteY="102dp"
-        tools:layout_editor_absoluteX="28dp"
-        android:id="@+id/textView7"
-        android:textStyle="normal|bold" />
-
-    <TextView
         android:text="News"
         android:layout_width="220dp"
         android:layout_height="47dp"
         tools:layout_editor_absoluteY="16dp"
-        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteX="77dp"
         android:id="@+id/textView3"
         android:fontFamily="sans-serif"
         android:textSize="32sp"
@@ -28,48 +19,63 @@
         android:textStyle="normal|bold"
         android:textColor="@android:color/background_dark" />
 
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="379dp"
+        android:layout_height="366dp"
+        tools:layout_editor_absoluteY="111dp"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:text="21.06.2017 ore 12: 15"
+            android:layout_width="206dp"
+            android:layout_height="21dp"
+            tools:layout_editor_absoluteY="182dp"
+            tools:layout_editor_absoluteX="16dp"
+            android:id="@+id/textView8"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="Il 19 Giugno ci sarà uno sciopero sulla linea 234 Ati (Torino-Carignano)"
+            android:layout_width="334dp"
+            android:layout_height="109dp"
+            tools:layout_editor_absoluteY="41dp"
+            tools:layout_editor_absoluteX="16dp"
+            android:id="@+id/textView10" />
+
+        <TextView
+            android:text="Il 21 Giugno ci sarà uno sciopero sulla linea 126 Sadem (Torino-Pinerolo-Dubbione)"
+            android:layout_width="336dp"
+            android:layout_height="131dp"
+            tools:layout_editor_absoluteY="213dp"
+            tools:layout_editor_absoluteX="16dp"
+            android:id="@+id/textView11" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="95dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+    </android.support.constraint.ConstraintLayout>
+
     <TextView
-        android:text="14.06 ore 11.32"
+        android:text="15.06.2017 ore 11:39"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteY="271dp"
-        tools:layout_editor_absoluteX="27dp"
-        android:id="@+id/textView5"
+        tools:layout_editor_absoluteY="127dp"
+        tools:layout_editor_absoluteX="16dp"
+        android:id="@+id/textView7"
+        android:elevation="1dp"
         android:textStyle="normal|bold" />
 
-    <TextView
-        android:text="14.06 ore 11.28"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteY="186dp"
-        tools:layout_editor_absoluteX="27dp"
-        android:id="@+id/textView11"
-        android:textStyle="normal|bold" />
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
 
-    <TextView
-        android:text="TextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteY="143dp"
-        tools:layout_editor_absoluteX="28dp"
-        android:id="@+id/textView6"
-        tools:text="19 giugno sciopero della linea 29 dalle 17.00 alle 19.00" />
-
-    <TextView
-        android:text="TextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteY="222dp"
-        tools:layout_editor_absoluteX="28dp"
-        android:id="@+id/textView8"
-        tools:text="25 giugno sciopero della linea 55 dalla 9.00 alle 11.00" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteY="308dp"
-        tools:layout_editor_absoluteX="28dp"
-        android:id="@+id/textView10"
-        android:text="26 giugno sciopero della linea 66 dalle 15 alle 19" />
+    </android.support.constraint.ConstraintLayout>
 
 </android.support.constraint.ConstraintLayout>
