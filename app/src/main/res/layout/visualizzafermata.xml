@@ -20,7 +20,8 @@
         android:textAlignment="center"
         android:textStyle="normal|bold"
         android:textColor="@android:color/background_dark"
-        android:text="Visualizza Fermata" />
+        android:text="Visualizza Fermata"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:text="15:26 "
@@ -30,7 +31,8 @@
         tools:layout_editor_absoluteX="35dp"
         android:id="@+id/textView9"
         android:textStyle="normal|bold"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:text="PINEROLO"
@@ -40,7 +42,8 @@
         tools:layout_editor_absoluteX="131dp"
         android:id="@+id/textView12"
         android:textStyle="normal|bold"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:text="TextView"
@@ -51,7 +54,8 @@
         android:id="@+id/textView13"
         tools:text="PERCORSO"
         android:textStyle="normal|bold"
-        android:textSize="18sp" />
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:text="TextView"
@@ -62,33 +66,12 @@
         android:id="@+id/textView14"
         tools:text="77% OCCUPATO"
         android:textStyle="normal|bold"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints" />
 </android.support.constraint.ConstraintLayout>
 
-    <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-android:orientation="vertical" android:layout_width="match_parent"
-android:layout_height="match_parent" >
 
-<TextView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="New Text"
-    android:background="@drawable/line" />
 
-<TextView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="New Text"
-    android:background="@drawable/line"/>
-
-<TextView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="New Text"
-    android:layout_gravity="center_horizontal"
-    android:background="@drawable/line" />
-</LinearLayout>
 
 <!--
 DOVREBBE ESSERE QUESTA..
